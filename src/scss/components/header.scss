@@ -6,8 +6,25 @@
   z-index: 3;
 }
 
+.header__img img {
+  width: 164px;
+  height: 59px;
+  flex-shrink: 0;
+}
+
+.header__row {
+  display: flex;
+  gap: 50px;
+}
+
 .header__menu {
+  flex-grow: 1;
   text-align: right;
+}
+
+.header a {
+  color: #525159;
+  text-decoration: none;
 }
 
 .header__item {
@@ -17,8 +34,11 @@
   font-size: 20px;
   font-family: $fontManrope;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
 }
 
-.header__item:hover {
+.header__item a:hover {
   color: $colorText-2;
 }

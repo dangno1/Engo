@@ -1,10 +1,10 @@
-.header__button {
+.button {
   text-align: right;
   display: flex;
   gap: 20px;
 }
 
-.header__button-1 {
+.button__blue {
   width: 153px;
   height: 61px;
   border-radius: 7px;
@@ -13,22 +13,27 @@
   color: $colorTextButton;
   font-size: 20px;
   font-family: $fontManrope;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
-.header__button-1:hover {
+.button__blue:hover {
   background-color: $colorButton-2;
 }
 
-.header__button-2 {
+.button__green {
   width: 126px;
   height: 61px;
   border-radius: 7px;
   border: none;
   background-color: $colorButton-2;
   color: $colorTextButton;
+  flex-shrink: 0;
 }
 
-.header__button-2:hover {
+.button__green:hover {
   background-color: $colorButton-1;
 }

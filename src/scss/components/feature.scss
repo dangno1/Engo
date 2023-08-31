@@ -1,5 +1,4 @@
 .feature__body {
-  padding-top: 28px;
   background-color: $bgColor;
   border-radius: 48px;
   padding-top: 40px;
@@ -10,8 +9,10 @@
   border: 1px solid white;
   background-color: #fff;
   border-radius: 20px;
-  padding: 35px;
+  padding-top: 39px;
+  padding-left: 39px;
   cursor: pointer;
+  min-height: 100%;
 }
 
 .feature__title {
@@ -21,11 +22,54 @@
   line-height: 24px;
   letter-spacing: 0.92px;
   font-family: $fontManrope;
+  text-align: center;
+  padding-bottom: 28px;
 }
 
-.feature__text {
+.feature {
+  padding-top: 290px;
+}
+
+.feature__title__top {
+  font-size: 38px;
+  font-family: $fontManrope;
+}
+
+.feature__text__bottom {
+  padding-top: 36px;
+  text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 33px;
+  letter-spacing: 1.5px;
+  font-family: $fontManrope;
+  color: #7e7fa0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 1.45;
+}
+
+.feature__svg {
+  position: relative;
+  top: 27px;
+  left: 26.5px;
+}
+
+.feature__center {
+  color: #2d2a3e;
+  padding-top: 42px;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: 0.92px;
+  padding-bottom: 16px;
+}
+
+
+.feature__text {
+  color: #7e7fa0;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1,65;
   letter-spacing: 0.5px;
+  padding-bottom: 26px;
 }

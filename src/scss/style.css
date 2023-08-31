@@ -911,7 +911,7 @@ p {
 .button__blue {
   width: 153px;
   height: 61px;
-  border-radius: 7px;
+  border-radius: 13px;
   border: none;
   background-color: #616AE8;
   color: #fff;
@@ -931,7 +931,7 @@ p {
 .button__green {
   width: 126px;
   height: 61px;
-  border-radius: 7px;
+  border-radius: 13px;
   border: none;
   background-color: #22E4A7;
   color: #fff;

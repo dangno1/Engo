@@ -1,42 +1,37 @@
 .button {
-  text-align: right;
   display: flex;
   gap: 20px;
-}
-
-.button__blue {
-  width: 153px;
-  height: 61px;
   border-radius: 13px;
   border: none;
-  background-color: $colorButton-1;
-  color: $colorTextButton;
   font-size: 20px;
   font-family: $fontManrope;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.8px;
-  cursor: pointer;
   flex-shrink: 0;
   transition: 0.3s;
+  align-items: center;
+}
+
+.button--blue {
+  width: 153px;
+  height: 61px;
+  padding: 20px;
+  background-color: $colorButton-1;
+  color: $colorTextButton;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.button__blue:hover {
+.button--blue:hover {
   background-color: $colorButton-2;
 }
 
-.button__green {
+.button--green {
   width: 126px;
   height: 61px;
-  border-radius: 13px;
-  border: none;
   background-color: $colorButton-2;
-  color: $colorTextButton;
-  flex-shrink: 0;
-  transition: 0.3s;
 }
 
-.button__green:hover {
+.button--green:hover {
   background-color: $colorButton-1;
 }

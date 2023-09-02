@@ -1,5 +1,42 @@
 .general {
-  padding: 168px 116px 0px 168px;
+  padding-left: 45px;
+}
+
+.general__title {
+  position: relative;
+  color: #2d2b36;
+  font-family: Manrope;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 0.92;
+  letter-spacing: 1.3px;
+}
+
+.general__title::before {
+  content: "";
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: -44px;
+  left: -60px;
+}
+
+.general__title--pink::before {
+  background: $colorBox-1;
+}
+
+.general__title--green::before {
+  background: $colorBox-2;
+}
+
+.general__title--purple::before {
+  background: $colorBox-3;
+}
+
+.general__title--blue::before {
+  background: $colorBox-4;
 }
 
 .general__text {
@@ -11,92 +48,4 @@
   letter-spacing: 0.74px;
   padding-top: 40px;
   min-height: 100%;
-}
-
-.general__title__pink {
-  position: relative;
-  color: #2d2b36;
-  font-family: Manrope;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 0.92;
-  letter-spacing: 1.3px;
-}
-
-.general__title__pink::before {
-  content: "";
-  width: 105px;
-  height: 105px;
-  border-radius: 50%;
-  background: $colorBox-1;
-  position: absolute;
-  z-index: -1;
-  top: -44px;
-  left: -60px;
-}
-
-.general__title__green {
-  position: relative;
-  color: #2d2b36;
-  font-family: Manrope;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 0.92;
-  letter-spacing: 1.3px;
-}
-
-.general__title__green::before {
-  content: "";
-  width: 105px;
-  height: 105px;
-  border-radius: 50%;
-  background: $colorBox-2;
-  position: absolute;
-  z-index: -1;
-  top: -44px;
-  left: -60px;
-}
-
-.general__title__purple {
-  position: relative;
-  color: #2d2b36;
-  font-family: Manrope;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 0.92;
-  letter-spacing: 1.3px;
-}
-
-.general__title__purple::before {
-  content: "";
-  width: 105px;
-  height: 105px;
-  border-radius: 50%;
-  background: $colorBox-3;
-  position: absolute;
-  z-index: -1;
-  top: -44px;
-  left: -60px;
-}
-
-.general__title__blue {
-  position: relative;
-  color: #2d2b36;
-  font-family: Manrope;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 0.92;
-  letter-spacing: 1.3px;
-}
-
-.general__title__blue::before {
-  content: "";
-  width: 105px;
-  height: 105px;
-  border-radius: 50%;
-  background: $colorBox-4;
-  position: absolute;
-  z-index: -1;
-  top: -44px;
-  left: -60px;
 }

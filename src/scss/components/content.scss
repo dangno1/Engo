@@ -1,7 +1,3 @@
-.content__body {
-  padding-top: 200px;
-}
-
 .page-section__bg {
   position: absolute;
   top: 850px;
@@ -18,7 +14,12 @@
   border-radius: 0 30px 30px 0;
 }
 
-.content__text {
+.content--body {
+  padding-top: 190px;
+  padding-bottom: 200px;
+}
+
+.content--body__right--text {
   padding-top: 30px;
   color: #7e7fa0;
   font-family: $fontManrope;
@@ -31,7 +32,7 @@
   flex-shrink: 0;
 }
 
-.content__text__name {
+.content--body__right--name {
   position: relative;
   font-size: 18px;
   font-weight: 800;
@@ -44,19 +45,21 @@
   padding-bottom: 77px;
 }
 
-.content__text__name::before {
-  content: "__";
+.content--body__right--name::before {
+  content: "";
+  width: 20px;
+  height: 1px;
   position: absolute;
-  top: 12px;
-  left: 1px;
-  color: #7e7fa0;
+  top: 32px;
+  left: 8px;
+  background-color: #7e7fa0;
 }
 
-.content__right {
+.content--body__right {
   padding-top: 120px;
 }
 
-.content__right__box {
+.content--body__right--box {
   width: 122px;
   height: 122px;
   flex-shrink: 0;
@@ -64,41 +67,11 @@
   position: relative;
   z-index: 1;
   background-color: $colorBox-5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.content__right__svg {
-  position: relative;
-  top: 21px;
-  left: 20px;
-}
-
-.content__image img {
+.content--body__left img {
   border-radius: 16px;
-}
-
-.content__title {
-  padding-top: 119px;
-  text-align: center;
-  padding-bottom: 28px;
-}
-
-.content__title__top {
-  font-size: 38px;
-  font-family: $fontManrope;
-}
-
-.content__outstanding {
-  color: $colorText-2;
-}
-
-.content__title__botton {
-  padding-top: 44px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  font-family: $fontManrope;
-  color: #7e7fa0;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  line-height: 1.45;
 }

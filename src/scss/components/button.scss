@@ -1,6 +1,4 @@
 .button {
-  display: flex;
-  gap: 20px;
   border-radius: 13px;
   border: none;
   font-size: 20px;
@@ -8,7 +6,6 @@
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.8px;
-  flex-shrink: 0;
   transition: 0.3s;
   align-items: center;
 }
@@ -24,6 +21,7 @@
 
 .button--blue:hover {
   background-color: $colorButton-2;
+  cursor: pointer;
 }
 
 .button--green {
@@ -34,4 +32,5 @@
 
 .button--green:hover {
   background-color: $colorButton-1;
+  cursor: pointer;
 }

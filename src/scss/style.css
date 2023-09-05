@@ -461,7 +461,13 @@ p {
   padding-bottom: 200px;
 }
 
-.general {
+.page-header__buttons {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.general__row {
   padding-left: 45px;
 }
 
@@ -771,8 +777,6 @@ p {
 }
 
 .button {
-  display: flex;
-  gap: 20px;
   border-radius: 13px;
   border: none;
   font-size: 20px;
@@ -780,7 +784,6 @@ p {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.8px;
-  flex-shrink: 0;
   transition: 0.3s;
   align-items: center;
 }
@@ -796,6 +799,7 @@ p {
 
 .button--blue:hover {
   background-color: #22E4A7;
+  cursor: pointer;
 }
 
 .button--green {
@@ -806,6 +810,7 @@ p {
 
 .button--green:hover {
   background-color: #616AE8;
+  cursor: pointer;
 }
 
 .title {

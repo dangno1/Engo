@@ -47,3 +47,9 @@
 .page-header__row {
   padding-bottom: 200px;
 }
+
+.page-header__buttons {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}

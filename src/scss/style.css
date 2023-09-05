@@ -615,8 +615,6 @@ p {
   height: 122px;
   flex-shrink: 0;
   border-radius: 50%;
-  position: relative;
-  z-index: 1;
   background-color: #FDF0E7;
   display: flex;
   justify-content: center;

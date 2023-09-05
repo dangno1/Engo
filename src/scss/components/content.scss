@@ -1,6 +1,6 @@
 .page-section__bg {
   position: absolute;
-  top: 850px;
+  top: 930px;
   z-index: -1;
   width: 790px;
   height: 815px;
@@ -14,12 +14,12 @@
   border-radius: 0 30px 30px 0;
 }
 
-.content--body {
+.content {
   padding-top: 190px;
   padding-bottom: 200px;
 }
 
-.content--body__right--text {
+.content__right--text {
   padding-top: 30px;
   color: #7e7fa0;
   font-family: $fontManrope;
@@ -32,7 +32,7 @@
   flex-shrink: 0;
 }
 
-.content--body__right--name {
+.content__right--name {
   position: relative;
   font-size: 18px;
   font-weight: 800;
@@ -45,7 +45,7 @@
   padding-bottom: 77px;
 }
 
-.content--body__right--name::before {
+.content__right--name::before {
   content: "";
   width: 20px;
   height: 1px;
@@ -55,11 +55,11 @@
   background-color: #7e7fa0;
 }
 
-.content--body__right {
+.content__right {
   padding-top: 120px;
 }
 
-.content--body__right--box {
+.content__right--box {
   width: 122px;
   height: 122px;
   flex-shrink: 0;
@@ -72,6 +72,6 @@
   align-items: center;
 }
 
-.content--body__left img {
+.content__left img {
   border-radius: 16px;
 }

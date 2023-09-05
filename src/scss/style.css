@@ -419,7 +419,7 @@ p {
   z-index: 3;
 }
 
-.page-heade--img img {
+.page-heade__img img {
   width: 164px;
   height: 59px;
   flex-shrink: 0;
@@ -463,12 +463,11 @@ p {
   flex-shrink: 0;
 }
 
-.general__row {
+.page-section {
   padding-top: 200px;
-  padding-left: 45px;
 }
 
-.general__title {
+.page-section__title {
   position: relative;
   color: #2d2b36;
   font-family: Manrope;
@@ -476,9 +475,10 @@ p {
   font-weight: 700;
   line-height: 0.92;
   letter-spacing: 1.3px;
+  padding-left: 45px;
 }
 
-.general__title::before {
+.page-section__title::before {
   content: "";
   width: 105px;
   height: 105px;
@@ -486,26 +486,26 @@ p {
   position: absolute;
   z-index: -1;
   top: -44px;
-  left: -60px;
+  left: -18px;
 }
 
-.general__title--pink::before {
+.page-section__title--pink::before {
   background: #FBE9E9;
 }
 
-.general__title--green::before {
+.page-section__title--green::before {
   background: #E7FAF9;
 }
 
-.general__title--purple::before {
+.page-section__title--purple::before {
   background: #F5ECFD;
 }
 
-.general__title--blue::before {
+.page-section__title--blue::before {
   background: #E7EFFB;
 }
 
-.general__text {
+.page-section__text {
   font-family: "Manrope", sans-serif;
   color: #7e7fa0;
   font-size: 20px;
@@ -551,7 +551,7 @@ p {
 
 .page-section__bg {
   position: absolute;
-  top: 850px;
+  top: 930px;
   z-index: -1;
   width: 790px;
   height: 815px;
@@ -565,12 +565,12 @@ p {
   border-radius: 0 30px 30px 0;
 }
 
-.content--body {
+.content {
   padding-top: 190px;
   padding-bottom: 200px;
 }
 
-.content--body__right--text {
+.content__right--text {
   padding-top: 30px;
   color: #7e7fa0;
   font-family: "Manrope", sans-serif;
@@ -583,7 +583,7 @@ p {
   flex-shrink: 0;
 }
 
-.content--body__right--name {
+.content__right--name {
   position: relative;
   font-size: 18px;
   font-weight: 800;
@@ -596,7 +596,7 @@ p {
   padding-bottom: 77px;
 }
 
-.content--body__right--name::before {
+.content__right--name::before {
   content: "";
   width: 20px;
   height: 1px;
@@ -606,11 +606,11 @@ p {
   background-color: #7e7fa0;
 }
 
-.content--body__right {
+.content__right {
   padding-top: 120px;
 }
 
-.content--body__right--box {
+.content__right--box {
   width: 122px;
   height: 122px;
   flex-shrink: 0;
@@ -623,7 +623,7 @@ p {
   align-items: center;
 }
 
-.content--body__left img {
+.content__left img {
   border-radius: 16px;
 }
 
@@ -678,28 +678,28 @@ p {
   transform: rotate(360deg);
 }
 
-.product--item__image {
+.product__image {
   overflow: hidden;
 }
-.product--item__image img {
+.product__image img {
   transition: 0.3s;
   vertical-align: middle;
 }
 
-.product--item__image:hover img {
+.product__image:hover img {
   transform: scale(1.1);
 }
 
-.product--item {
+.product {
   box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.05);
   border-radius: 8px 8px 0px 0px;
 }
 
-.product--item__design {
+.product__design {
   display: flex;
 }
 
-.product--item__design--text {
+.product__design--text {
   position: relative;
   text-align: center;
   background-color: #5D69FB;
@@ -716,12 +716,12 @@ p {
   letter-spacing: -0.57px;
 }
 
-.product--item__design--svg {
+.product__design--svg {
   position: relative;
   bottom: 25px;
 }
 
-.product--item__bottom--title {
+.product__bottom--title {
   padding-left: 21px;
   color: #000;
   font-size: 21px;
@@ -734,12 +734,12 @@ p {
   -webkit-box-orient: vertical;
 }
 
-.product--item__bottom--title:hover {
+.product__bottom--title:hover {
   color: blue;
   transition: 0.2s;
 }
 
-.product--item__bottom--day {
+.product__bottom--day {
   padding-left: 21px;
   padding-bottom: 15px;
   display: flex;
@@ -752,7 +752,7 @@ p {
   padding-top: 4px;
 }
 
-.product--item__bottom--round {
+.product__bottom--round {
   width: 4px;
   height: 4px;
   background: #817f8a;
@@ -761,15 +761,15 @@ p {
   top: 10px;
 }
 
-.product--item__bottom {
+.product__bottom {
   text-decoration: none;
 }
 
-.product--item__image {
+.product__image {
   transform: 0.3s;
   border-radius: 8px 8px 0px 0px;
 }
-.product--item__image img {
+.product__image img {
   border-radius: 8px 8px 0px 0px;
 }
 
@@ -815,7 +815,6 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 120px;
 }
 
 .title__top {

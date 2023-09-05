@@ -1,9 +1,8 @@
-.general__row {
+.page-section {
   padding-top: 200px;
-  padding-left: 45px;
 }
 
-.general__title {
+.page-section__title {
   position: relative;
   color: #2d2b36;
   font-family: Manrope;
@@ -11,9 +10,10 @@
   font-weight: 700;
   line-height: 0.92;
   letter-spacing: 1.3px;
+  padding-left: 45px;
 }
 
-.general__title::before {
+.page-section__title::before {
   content: "";
   width: 105px;
   height: 105px;
@@ -21,26 +21,26 @@
   position: absolute;
   z-index: -1;
   top: -44px;
-  left: -60px;
+  left: -18px;
 }
 
-.general__title--pink::before {
+.page-section__title--pink::before {
   background: $colorBox-1;
 }
 
-.general__title--green::before {
+.page-section__title--green::before {
   background: $colorBox-2;
 }
 
-.general__title--purple::before {
+.page-section__title--purple::before {
   background: $colorBox-3;
 }
 
-.general__title--blue::before {
+.page-section__title--blue::before {
   background: $colorBox-4;
 }
 
-.general__text {
+.page-section__text {
   font-family: $fontManrope;
   color: #7e7fa0;
   font-size: 20px;

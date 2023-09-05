@@ -457,6 +457,10 @@ p {
   color: #0066ff;
 }
 
+.page-header__row {
+  padding-bottom: 200px;
+}
+
 .general {
   padding-left: 45px;
 }
@@ -729,6 +733,7 @@ p {
 
 .product--item__bottom--title:hover {
   color: blue;
+  transition: 0.2s;
 }
 
 .product--item__bottom--day {

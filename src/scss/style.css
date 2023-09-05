@@ -407,16 +407,16 @@ p {
     width: calc(var(--col-lg) / var(--grid) * 100%);
   }
 }
-.mb-120 {
-  margin-bottom: 120px;
-}
-
 .mb-200 {
   margin-bottom: 200px;
 }
 
 .page-header {
   padding-top: 20px;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 3;
 }
 
 .page-heade--img img {
@@ -457,10 +457,6 @@ p {
   color: #0066ff;
 }
 
-.page-header__row {
-  padding-bottom: 200px;
-}
-
 .page-header__buttons {
   display: flex;
   gap: 20px;
@@ -468,6 +464,7 @@ p {
 }
 
 .general__row {
+  padding-top: 200px;
   padding-left: 45px;
 }
 

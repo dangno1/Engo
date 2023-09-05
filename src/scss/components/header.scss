@@ -1,9 +1,9 @@
 .page-header {
   padding-top: 20px;
-  // position: sticky;
-  // top: 0;
-  // background: white;
-  // z-index: 3;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 3;
 }
 
 .page-heade--img img {
@@ -42,10 +42,6 @@
 
 .menu__item a:hover {
   color: $colorText-2;
-}
-
-.page-header__row {
-  padding-bottom: 200px;
 }
 
 .page-header__buttons {

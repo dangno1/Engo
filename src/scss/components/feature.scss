@@ -48,3 +48,36 @@
 .feature__svg:hover {
   transform: rotate(360deg);
 }
+
+.feature__box {
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__box--pink {
+  background-color: $colorBox-6;
+}
+
+.feature__box--purple {
+  background-color: $colorBox-7;
+}
+
+.feature__box--aqua {
+  background-color:$colorBox-8;
+}
+
+.feature__box--blue {
+  background-color: $colorBox-9;
+}
+
+.feature__box--red {
+  background-color: $colorBox-10;
+}
+
+.feature__box--green {
+  background-color: $colorBox-11;
+}

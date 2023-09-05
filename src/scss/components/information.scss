@@ -2,7 +2,7 @@
   padding-top: 200px;
 }
 
-.page-section__title {
+.information__title {
   position: relative;
   color: #2d2b36;
   font-family: Manrope;
@@ -13,7 +13,7 @@
   padding-left: 45px;
 }
 
-.page-section__title::before {
+.information__title::before {
   content: "";
   width: 105px;
   height: 105px;
@@ -24,23 +24,23 @@
   left: -18px;
 }
 
-.page-section__title--pink::before {
+.information__title--pink::before {
   background: $colorBox-1;
 }
 
-.page-section__title--green::before {
+.information__title--green::before {
   background: $colorBox-2;
 }
 
-.page-section__title--purple::before {
+.information__title--purple::before {
   background: $colorBox-3;
 }
 
-.page-section__title--blue::before {
+.information__title--blue::before {
   background: $colorBox-4;
 }
 
-.page-section__text {
+.information__text {
   font-family: $fontManrope;
   color: #7e7fa0;
   font-size: 20px;

@@ -19,7 +19,7 @@
   padding-bottom: 200px;
 }
 
-.content__right--text {
+.content__text {
   padding-top: 30px;
   color: #7e7fa0;
   font-family: $fontManrope;
@@ -32,7 +32,7 @@
   flex-shrink: 0;
 }
 
-.content__right--name {
+.content__name {
   position: relative;
   font-size: 18px;
   font-weight: 800;
@@ -45,7 +45,7 @@
   padding-bottom: 77px;
 }
 
-.content__right--name::before {
+.content__name::before {
   content: "";
   width: 20px;
   height: 1px;
@@ -59,7 +59,7 @@
   padding-top: 120px;
 }
 
-.content__right--box {
+.content__box {
   width: 122px;
   height: 122px;
   flex-shrink: 0;

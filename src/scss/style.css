@@ -416,7 +416,7 @@ p {
   position: sticky;
   top: 0;
   background: white;
-  z-index: 3;
+  z-index: 1;
 }
 
 .page-heade__img img {
@@ -437,7 +437,7 @@ p {
   gap: 30px;
 }
 
-.menu__item {
+.page-header__item {
   display: inline-block;
   padding-left: 84px;
   text-align: center;
@@ -448,13 +448,13 @@ p {
   letter-spacing: 0.8px;
 }
 
-.menu__item a {
+.page-header__item a {
   text-decoration: none;
   color: #525159;
   transition: 0.3s;
 }
 
-.menu__item a:hover {
+.page-header__item a:hover {
   color: #0066ff;
 }
 
@@ -468,7 +468,7 @@ p {
   padding-top: 200px;
 }
 
-.page-section__title {
+.information__title {
   position: relative;
   color: #2d2b36;
   font-family: Manrope;
@@ -479,7 +479,7 @@ p {
   padding-left: 45px;
 }
 
-.page-section__title::before {
+.information__title::before {
   content: "";
   width: 105px;
   height: 105px;
@@ -490,23 +490,23 @@ p {
   left: -18px;
 }
 
-.page-section__title--pink::before {
+.information__title--pink::before {
   background: #FBE9E9;
 }
 
-.page-section__title--green::before {
+.information__title--green::before {
   background: #E7FAF9;
 }
 
-.page-section__title--purple::before {
+.information__title--purple::before {
   background: #F5ECFD;
 }
 
-.page-section__title--blue::before {
+.information__title--blue::before {
   background: #E7EFFB;
 }
 
-.page-section__text {
+.information__text {
   font-family: "Manrope", sans-serif;
   color: #7e7fa0;
   font-size: 20px;
@@ -515,39 +515,6 @@ p {
   letter-spacing: 0.74px;
   padding-top: 40px;
   min-height: 100%;
-}
-
-.box {
-  width: 93px;
-  height: 93px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box__pink {
-  background-color: #FFF1F0;
-}
-
-.box__purple {
-  background-color: #F2E9FA;
-}
-
-.box__aqua {
-  background-color: #E4F7FA;
-}
-
-.box__blue {
-  background-color: #E4E6FB;
-}
-
-.box__red {
-  background-color: #FDE9F4;
-}
-
-.box__green {
-  background-color: #E4F9E6;
 }
 
 .page-section__bg {
@@ -571,7 +538,7 @@ p {
   padding-bottom: 200px;
 }
 
-.content__right--text {
+.content__text {
   padding-top: 30px;
   color: #7e7fa0;
   font-family: "Manrope", sans-serif;
@@ -584,7 +551,7 @@ p {
   flex-shrink: 0;
 }
 
-.content__right--name {
+.content__name {
   position: relative;
   font-size: 18px;
   font-weight: 800;
@@ -597,7 +564,7 @@ p {
   padding-bottom: 77px;
 }
 
-.content__right--name::before {
+.content__name::before {
   content: "";
   width: 20px;
   height: 1px;
@@ -611,7 +578,7 @@ p {
   padding-top: 120px;
 }
 
-.content__right--box {
+.content__box {
   width: 122px;
   height: 122px;
   flex-shrink: 0;
@@ -677,6 +644,39 @@ p {
   transform: rotate(360deg);
 }
 
+.feature__box {
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__box--pink {
+  background-color: #FFF1F0;
+}
+
+.feature__box--purple {
+  background-color: #F2E9FA;
+}
+
+.feature__box--aqua {
+  background-color: #E4F7FA;
+}
+
+.feature__box--blue {
+  background-color: #E4E6FB;
+}
+
+.feature__box--red {
+  background-color: #FDE9F4;
+}
+
+.feature__box--green {
+  background-color: #E4F9E6;
+}
+
 .product__image {
   overflow: hidden;
 }
@@ -698,7 +698,7 @@ p {
   display: flex;
 }
 
-.product__design--text {
+.product__design-text {
   position: relative;
   text-align: center;
   background-color: #5D69FB;
@@ -715,12 +715,12 @@ p {
   letter-spacing: -0.57px;
 }
 
-.product__design--svg {
+.product__design-svg {
   position: relative;
   bottom: 25px;
 }
 
-.product__bottom--title {
+.product__bottom-title {
   padding-left: 21px;
   color: #000;
   font-size: 21px;
@@ -733,12 +733,12 @@ p {
   -webkit-box-orient: vertical;
 }
 
-.product__bottom--title:hover {
+.product__bottom-title:hover {
   color: blue;
   transition: 0.2s;
 }
 
-.product__bottom--day {
+.product__bottom-day {
   padding-left: 21px;
   padding-bottom: 15px;
   display: flex;
@@ -751,7 +751,7 @@ p {
   padding-top: 4px;
 }
 
-.product__bottom--round {
+.product__bottom-round {
   width: 4px;
   height: 4px;
   background: #817f8a;

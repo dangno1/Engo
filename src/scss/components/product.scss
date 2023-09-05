@@ -21,7 +21,7 @@
   display: flex;
 }
 
-.product__design--text {
+.product__design-text {
   position: relative;
   text-align: center;
   background-color: $colorDesign;
@@ -38,12 +38,12 @@
   letter-spacing: -0.57px;
 }
 
-.product__design--svg {
+.product__design-svg {
   position: relative;
   bottom: 25px;
 }
 
-.product__bottom--title {
+.product__bottom-title {
   padding-left: 21px;
   color: #000;
   font-size: 21px;
@@ -56,12 +56,12 @@
   -webkit-box-orient: vertical;
 }
 
-.product__bottom--title:hover {
+.product__bottom-title:hover {
   color: blue;
   transition: 0.2s;
 }
 
-.product__bottom--day {
+.product__bottom-day {
   padding-left: 21px;
   padding-bottom: 15px;
   display: flex;
@@ -74,7 +74,7 @@
   padding-top: 4px;
 }
 
-.product__bottom--round {
+.product__bottom-round {
   width: 4px;
   height: 4px;
   background: #817f8a;

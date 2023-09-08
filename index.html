@@ -20,8 +20,8 @@
                     <img src="./src/image/Frame.jpg" alt="">
                 </div>
                 <div class="page-header__right">
-                    <div class="page-header__menu" id="menuHamburger">
-                        <a class="page-header__closebtn" onclick="closeNav()">&times;</a>
+                    <div class="page-header__menu" id="menuHamburger" onclick="closeNav()">
+                        <a class="page-header__closebtn">&times;</a>
                         <ul>
                             <li class="page-header__item"><a href="#">Home</a></li>
                             <li class="page-header__item"><a href="#">About Application</a></li>
@@ -534,7 +534,7 @@
 
 <script>
     function openNav() {
-        document.getElementById("menuHamburger").style.width = "100%";
+        document.getElementById("menuHamburger").style.width = "80%";
     }
     function closeNav() {
         document.getElementById("menuHamburger").style.width = "";

@@ -10,17 +10,21 @@
   @media (max-width: 1200px) {
     width: 40%;
     height: 520px;
-    top: 950px;
+    top: 795px;
   }
   @media (max-width: 992px) {
-    width: 40%;
-    height: 450px;
-    top: 805px;
+    height: 440px;
+    top: 835px;
   }
   @media (max-width: 768px) {
-    width: 40%;
+    width: 80%;
     height: 600px;
     top: 1066px;
+  }
+
+  @media (max-width: 588px) {
+    height: 440px;
+    top: 1285px;
   }
 }
 

@@ -423,6 +423,7 @@ ul {
   top: 0;
   background: white;
   z-index: 1;
+  box-shadow: 0px 0px 10px -6px #888888;
 }
 
 .page-heade__img img {
@@ -484,10 +485,11 @@ ul {
 }
 @media (max-width: 1200px) {
   .page-header__buttons {
+    flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 630px;
-    left: 36%;
+    top: 415px;
+    left: 43%;
   }
 }
 
@@ -498,14 +500,14 @@ ul {
 @media (max-width: 1200px) {
   .page-header__menu {
     position: fixed;
-    height: 100%;
+    height: 100vh;
     width: 0;
-    z-index: 2;
+    z-index: 92;
     top: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: all 0.5s ease-out;
   }
 }
 
@@ -520,7 +522,7 @@ ul {
     align-items: center;
     gap: 40px;
     position: absolute;
-    top: 200px;
+    top: 125px;
     left: 40%;
   }
 }
@@ -574,6 +576,12 @@ ul {
 
 .page-section {
   padding-top: 200px;
+}
+@media (max-width: 1200px) {
+  .page-section {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
 }
 @media (max-width: 992px) {
   .page-section {
@@ -667,6 +675,7 @@ ul {
 @media (max-width: 1200px) {
   .information__text {
     font-size: 17px;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 992px) {
@@ -690,21 +699,26 @@ ul {
   .page-section__bg {
     width: 40%;
     height: 520px;
-    top: 950px;
+    top: 795px;
   }
 }
 @media (max-width: 992px) {
   .page-section__bg {
-    width: 40%;
-    height: 450px;
-    top: 805px;
+    height: 440px;
+    top: 835px;
   }
 }
 @media (max-width: 768px) {
   .page-section__bg {
-    width: 40%;
+    width: 80%;
     height: 600px;
     top: 1066px;
+  }
+}
+@media (max-width: 588px) {
+  .page-section__bg {
+    height: 440px;
+    top: 1285px;
   }
 }
 
@@ -1131,6 +1145,22 @@ ul {
     letter-spacing: 0.5px;
   }
 }
+@media (max-width: 768px) {
+  .title__top {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.5px;
+  }
+}
+@media (max-width: 588px) {
+  .title__top {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.5px;
+  }
+}
 
 .content__outstanding {
   color: #5e68f9;
@@ -1148,6 +1178,18 @@ ul {
 @media (max-width: 992px) {
   .content__outstanding {
     font-size: 30px;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .content__outstanding {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 588px) {
+  .content__outstanding {
+    font-size: 25px;
     letter-spacing: 1px;
   }
 }
@@ -1183,7 +1225,8 @@ ul {
 }
 @media (max-width: 768px) {
   .title__bottom {
-    width: 485px;
+    width: auto;
+    font-size: 16px;
   }
 }
 

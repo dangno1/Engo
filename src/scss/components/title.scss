@@ -26,6 +26,20 @@
     line-height: 0.63;
     letter-spacing: 0.5px;
   }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.5px;
+  }
+
+  @media (max-width: 588px) {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.5px;
+  }
 }
 
 .content__outstanding {
@@ -42,6 +56,16 @@
 
   @media (max-width: 992px) {
     font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 588px) {
+    font-size: 25px;
     letter-spacing: 1px;
 
   }
@@ -75,6 +99,7 @@
   }
 
   @media (max-width: 768px) {
-    width: 485px;
+    width: auto;
+    font-size: 16px;
   }
 }

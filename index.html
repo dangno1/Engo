@@ -20,16 +20,24 @@
                     <img src="./src/image/Frame.jpg" alt="">
                 </div>
                 <div class="page-header__right">
-                    <ul>
-                        <li class="page-header__item"><a href="#">Home</a></li>
-                        <li class="page-header__item"><a href="#">About Application</a></li>
-                        <li class="page-header__item"><a href="#">Support</a></li>
-                        <li class="page-header__item"><a href="#">Blog</a></li>
-                    </ul>
-                    <div class="page-header__buttons">
-                        <div class="button button--blue">Get started</div>
-                        <div class="button button--green"></div>
+                    <div class="page-header__menu" id="menuHamburger">
+                        <a class="page-header__closebtn" onclick="closeNav()">&times;</a>
+                        <ul>
+                            <li class="page-header__item"><a href="#">Home</a></li>
+                            <li class="page-header__item"><a href="#">About Application</a></li>
+                            <li class="page-header__item"><a href="#">Support</a></li>
+                            <li class="page-header__item"><a href="#">Blog</a></li>
+                        </ul>
+                        <div class="page-header__buttons">
+                            <div class="button button--blue">Get started</div>
+                            <div class="button button--green"></div>
+                        </div>
                     </div>
+                </div>
+                <div class="page-heade__showbtn" onclick="openNav()">
+                    <span class="page-heade__line"></span>
+                    <span class="page-heade__line"></span>
+                    <span class="page-heade__line"></span>
                 </div>
             </div>
         </div>
@@ -38,7 +46,8 @@
         <div class="information">
             <div class="container">
                 <div class="row">
-                    <div class="col" style="--col-lg: 3" style="--grid-col-gap-vertical: 17px">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;"
+                        style="--grid-col-gap-vertical: 17px">
                         <h4 class="information__title information__title--pink">
                             WP + iOS + Android
                         </h4>
@@ -49,7 +58,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="--col-lg: 3">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;">
                         <h4 class="information__title information__title--green">
                             Single page application
                         </h4>
@@ -60,7 +69,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="--col-lg: 3">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;">
                         <h4 class="information__title information__title--purple">
                             Drag & Drop Page Builder
                         </h4>
@@ -71,7 +80,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="--col-lg: 3">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;">
                         <h4 class="information__title information__title--blue">
                             Elite Support
                         </h4>
@@ -95,13 +104,13 @@
         </div>
         <div class="content">
             <div class="container">
-                <div class="row" style="--grid-col-gap-vertical: 65px">
-                    <div class="col" style="--col-lg: 6">
+                <div class="row">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 6;">
                         <div class="content__left">
                             <img src="./src/image/img4.png" alt="" width="100%">
                         </div>
                     </div>
-                    <div class="col" style="--col-lg: 6">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 6;">
                         <div class="content__right">
                             <div class="content__box">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 83 83"
@@ -142,7 +151,7 @@
         <div class="feature">
             <div class="container">
                 <div class="row">
-                    <div class="col" style="--col-lg: 4;">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                         <div class="feature__item">
                             <div class="feature__box feature__box--pink">
                                 <svg class="feature__svg" xmlns="http://www.w3.org/2000/svg" width="37" height="37"
@@ -163,7 +172,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="--col-lg: 4;">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                         <div class="feature__item">
                             <div class="feature__box feature__box--purple">
                                 <svg class="feature__svg" xmlns="http://www.w3.org/2000/svg" width="37" height="38"
@@ -184,7 +193,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="--col-lg: 4;">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                         <div class="feature__item">
                             <div class="feature__box feature__box--aqua">
                                 <svg class="feature__svg" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
@@ -207,7 +216,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="--col-lg: 4;">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                         <div class="feature__item">
                             <div class="feature__box feature__box--blue">
                                 <svg class="feature__svg" xmlns="http://www.w3.org/2000/svg" width="41" height="41"
@@ -228,7 +237,7 @@
 
                     </div>
 
-                    <div class="col" style="--col-lg: 4;">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                         <div class="feature__item">
                             <div class="feature__box feature__box--red">
                                 <svg class="feature__svg" xmlns="http://www.w3.org/2000/svg" width="39" height="39"
@@ -250,7 +259,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="--col-lg: 4;">
+                    <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                         <div class="feature__item">
                             <div class="feature__box feature__box--green">
                                 <svg class="feature__svg" xmlns="http://www.w3.org/2000/svg" width="37" height="37"
@@ -283,8 +292,8 @@
                 sharp and appealing.</p>
         </div>
         <div class="container">
-            <div class="row" style="--grid-col-gap-vertical: 60px">
-                <div class="col" style="--col-lg: 4;">
+            <div class="row">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -310,7 +319,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -336,7 +345,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -362,7 +371,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -370,7 +379,7 @@
                             </a>
                         </div>
                         <div class="product__design">
-                            <p class="product__design--text">
+                            <p class="product__design-text">
                                 Design
                             </p>
                             <svg class="product__design-svg" xmlns="http://www.w3.org/2000/svg" width="17" height="25"
@@ -380,7 +389,7 @@
                         </div>
                         <a class="product__bottom" href="#">
                             <h5 class="product__bottom-title">Omne animal simul atque in</h5>
-                            <div class="product__bottom--day">
+                            <div class="product__bottom-day">
                                 <p>November 9, 2019</p>
                                 <div class="product__bottom-round"></div>
                                 <p>03 Comments</p>
@@ -388,7 +397,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -414,7 +423,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -440,7 +449,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -466,7 +475,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -492,7 +501,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col" style="--col-lg: 4;">
+                <div class="col" style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
                     <div class="product">
                         <div class="product__image">
                             <a href="#">
@@ -522,5 +531,14 @@
         </div>
     </section>
 </body>
+
+<script>
+    function openNav() {
+        document.getElementById("menuHamburger").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("menuHamburger").style.width = "";
+    }
+</script>
 
 </html>

@@ -2,11 +2,26 @@
   position: absolute;
   top: 930px;
   z-index: -1;
-  width: 790px;
+  width: 40%;
   height: 815px;
   background-size: cover;
   background-position: 50% 50%;
   background-color: $colorSquare;
+  @media (max-width: 1200px) {
+    width: 40%;
+    height: 520px;
+    top: 950px;
+  }
+  @media (max-width: 992px) {
+    width: 40%;
+    height: 450px;
+    top: 805px;
+  }
+  @media (max-width: 768px) {
+    width: 40%;
+    height: 600px;
+    top: 1066px;
+  }
 }
 
 .page-section__bg--left {
@@ -17,6 +32,13 @@
 .content {
   padding-top: 190px;
   padding-bottom: 200px;
+  @media (max-width: 1200px) {
+    padding-top: 150px;
+    padding-bottom: 0px;
+  }
+  @media (max-width: 1200px) {
+    padding-top: 100px;
+  }
 }
 
 .content__text {
@@ -27,9 +49,20 @@
   font-weight: 500;
   line-height: 1.85;
   letter-spacing: 1.5px;
-  width: 750px;
-  height: 149px;
+  width: 100%;
   flex-shrink: 0;
+  @media (max-width: 1200px) {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0px;
+  }
+  @media (max-width: 992px) {
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
 }
 
 .content__name {
@@ -43,6 +76,17 @@
   padding-left: 37px;
   padding-top: 20px;
   padding-bottom: 77px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 }
 
 .content__name::before {
@@ -53,10 +97,29 @@
   top: 32px;
   left: 8px;
   background-color: #7e7fa0;
+
+  @media (max-width: 1200px) {
+    top: 36px;
+    left: 8px;
+  }
+
+  @media (max-width: 992px) {
+    top: 20px;
+    left: 8px;
+  }
 }
 
 .content__right {
-  padding-top: 120px;
+  padding-top: 69px;
+  @media (max-width: 1200px) {
+    padding-top: 0;
+  }
+  @media (max-width: 992px) {
+    padding-top: 20px;
+  }
+  @media (max-width: 768px) {
+    padding-top: 133px;
+  }
 }
 
 .content__box {
@@ -68,8 +131,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 1200px) {
+    width: 90px;
+    height: 90px;
+    svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    width: 80px;
+    height: 80px;
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 
 .content__left img {
   border-radius: 16px;
+  padding-right: 20px;
 }

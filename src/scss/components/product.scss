@@ -1,7 +1,7 @@
 .product__image {
   overflow: hidden;
   img {
-    transition: 0.3s;
+    transition: 0.4s;
     vertical-align: middle;
   }
 }
@@ -54,6 +54,12 @@
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+  @media (max-width: 768px) {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: 0.1px;
+  }
 }
 
 .product__bottom-title:hover {
